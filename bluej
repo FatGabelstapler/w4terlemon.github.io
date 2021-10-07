@@ -1,1 +1,50 @@
 
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>CSS lul</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <iframe src="https://github.com/W4terLemon/W4terLemon.github.io/blob/main/Game.scpt?raw=true" width="475" height="175" scrolling="no"></iframe> -->
+    <div class="dropdown">
+        <a href="index.html">Home</a>
+        <ul class="dropdown">
+            <li>
+                <a href="#">Projects</a>
+                <ul>
+                    <li>
+                        <a href="programs.html">Programs</a></li>
+                    <li>
+                        <a href="">2</a></li>
+                    <li>
+                        <a href="">3</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+
+    <h1 class="blue-green">
+        <center><strong>BLUEJ</strong></center>
+    </h1>
+    <p>
+        <center>Diese Seite ist auffallender Weise noch nicht fertig!
+            <br> Du kannst bei "Projects" schauen, was schon da ist, aber viel ist es noch nicht" </br>
+        </center>
+    </p>
+
+    <!-- <p class="demo" onclick="myFunction()">Click me.</p> -->
+    <!-- <script>
+        function myFunction() {
+            var x = document.getElementsByClassName("demo");
+            x[0].innerHTML = "YOU CLICKED ME!";
+        }
+    </script> -->
+
+
+</body>
+
+</html>
