@@ -8,10 +8,14 @@
 
 h1 {
     color: green;
-    font-size: 350%;
+    font-size: 1000%;
 }
 
-
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 350%;
+    }
+}
 
 body {
     font-size: larger;
