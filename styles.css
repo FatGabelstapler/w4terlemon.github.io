@@ -41,7 +41,7 @@ body {
 
 .button {
     border: none;
-    color: white;
+    color: rgb(97, 93, 93);
     padding: 100px 12.5%;
     text-align: center;
     text-decoration: none;
@@ -57,12 +57,12 @@ body {
     left: 0%;
     background-color: teal;
     background: url(https://meedia.de/wp-content/uploads/2016/10/Apple-Logo.jpg);
+    background-position: 100%;
 }
 
 .button2 {
     position: absolute;
     right: 0%;
-    color: black;
     background-color: #806000;
     background: url(https://www.mebis.bayern.de/wp-content/uploads/sites/2/2015/05/BlueJ-600x338.jpg);
 }
