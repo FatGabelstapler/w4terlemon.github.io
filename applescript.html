@@ -4,32 +4,21 @@
 <head>
     <title>CSS lul</title>
     <link rel="stylesheet" href="styles.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="language.js" defer></script>
+    <script src="dropdown.js" defer></script>
 </head>
 
-<body>
-    <div class="dropdown">
-        <a href="home">Home</a>
-        <ul class="dropdown">
-            <li>
-                <a href="#">Projects</a>
-                <ul>
-                    <li>
-                        <a href="programs">Programs</a></li>
-                    <li>
-                        <a href="">2</a></li>
-                    <li>
-                        <a href="">3</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-    </div>
+<body onload="translate_applescript(),dropdown()">
+    <p id="Test"></p>
+
+    <p class="SwitchLanguage" id="SwitchLanguage" onclick="SwitchLanguage();translate_applescript()">Language: German</p>
 
     <h1 class="blue-green">
         <center><strong>APPLESCRiPTs</strong></center>
     </h1>
-    <button class="first-left-button" onclick=location.href='https://github.com/W4terLemon/W4terLemon.github.io/raw/main/Game.scpt'>Hilfsprogramm</button>
+
+    <button id="apple1" class="first-left-button" onclick=location.href='https://github.com/W4terLemon/W4terLemon.github.io/raw/main/Game.scpt'>Assistent (nicht fertig)</button>
+    <button id="apple2" class="first-right-button" onclick=location.href='https://github.com/W4terLemon/W4terLemon.github.io/raw/main/Game.scpt'>Flowey's Time Machine (Absolut nicht fertig)</button>
 
 </body>
 
