@@ -7,7 +7,7 @@ document.getElementById("Test").innerHTML = '<div class="dropdown">'+
         '<a href="#">Projects</a>'+
         '<ul>'+
             '<li>'+
-                '<a href="programs.html">Programs</a></li>'+
+                '<a href="programs">Programs</a></li>'+
             '<li>'+
                 '<a href="">2</a></li>'+
             '<li>'+
