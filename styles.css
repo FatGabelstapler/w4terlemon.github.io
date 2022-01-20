@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 .loadPage {
+    z-index: 100;
     position:absolute;
     background-color: black;
     height: 100%;
@@ -90,8 +91,7 @@ body {
 .button2 {
     position: absolute;
     right: 0%;
-    background-color: #806000;
-    background: url(https://www.mebis.bayern.de/wp-content/uploads/sites/2/2015/05/BlueJ-600x338.jpg);
+    background-color: #1a1414;
 }
 
 div.dropdown {
