@@ -1,7 +1,7 @@
 function dropdown(){
 
 document.getElementById("Test").innerHTML = '<div class="dropdown">'+
-'<a href="home.html"><img src="logoV3.png" width="40" height="40" align="center"></a>'+
+'<a href="home"><img src="logoV3.png" width="40" height="40" align="center"></a>'+
 '<ul class="dropdown">'+
     '<li>'+
         '<a href="#">Projects</a>'+
